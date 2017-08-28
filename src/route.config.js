@@ -3,13 +3,13 @@ app.config(['$routeProvider',function($routeProvider){
     $routeProvider
     .when('/',
         {
-            templateUrl:"./components/home.html",
+            templateUrl:"./src/components/home.html",
             controller:"homeCtrol"
         }
     )
     .when('/list',
         {
-            templateUrl:"./components/list.html",
+            templateUrl:"./src/components/list.html",
             controller:"listCtrol"
         }
     );
