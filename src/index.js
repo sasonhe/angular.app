@@ -1,7 +1,5 @@
 import angular from 'angular';
 import angularRoute from 'angular-route';
-// import route from './route.config.js';
-// 'imports?$=angular!./apps/route'
 var app = angular.module('myApp',['ngRoute']);
 app.config(['$routeProvider',function($routeProvider){
     $routeProvider
