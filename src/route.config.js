@@ -12,10 +12,10 @@ app.config(['$routeProvider',function($routeProvider){
             templateUrl:"./src/components/list.html",
             controller:"listCtrol"
         }
-    );
+    )
 }]);
 app.controller("homeCtrol",function($scope){
-	$scope.title = "哈哈，这是首页内容";
+	$scope.title = "这是首页内容";
 });
 app.controller("listCtrol",function($scope){
 	$scope.title = "哈哈，这是list内容";

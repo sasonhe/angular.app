@@ -9,7 +9,15 @@
 </head>
 <body ng-app="myApp">
 <div ng-include="'./src/components/header.html'"></div>
-<div ng-view></div>
+<div>
+    <ul>
+        <li><a href="#/">tab1</a></li>
+        <li><a href="#/list">tab2</a></li>
+    </ul>
+</div>
+<div>
+    <div ng-view></div>
+</div>
 <script src="bundle.js"></script>
 </body>
 </html>
